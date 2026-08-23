@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1200" width="800" height="1200">
+    <defs>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800;900&amp;display=swap');
+            .bg { fill: #EBEBEB; }
+            .red-block { fill: #D32F2F; }
+            .dark-block { fill: #111111; }
+            .title-adam { font-family: 'Inter', sans-serif; font-weight: 900; font-size: 170px; fill: #111111; letter-spacing: -8px; }
+            .title-scholz { font-family: 'Inter', sans-serif; font-weight: 900; font-size: 170px; fill: #D32F2F; letter-spacing: -8px; }
+            .subtitle { font-family: 'Inter', sans-serif; font-weight: 800; font-size: 50px; fill: #111111; letter-spacing: 2px; }
+            .platform { font-family: 'Inter', sans-serif; font-weight: 800; font-size: 40px; fill: #EBEBEB; letter-spacing: -1px; }
+            .footer { font-family: 'Inter', sans-serif; font-weight: 600; font-size: 24px; fill: #888888; letter-spacing: 4px; text-transform: uppercase; }
+        </style>
+    </defs>
+    
+    <!-- Background -->
+    <rect class="bg" width="800" height="1200"/>
+    
+    <!-- Layout Grid Blocks -->
+    <rect class="dark-block" x="50" y="50" width="700" height="20"/>
+    <rect class="red-block" x="50" y="80" width="150" height="20"/>
+    
+    <!-- Main Typography -->
+    <text x="45" y="270" class="title-adam">ADAM</text>
+    <text x="45" y="420" class="title-scholz">SCHOLZ</text>
+    
+    <text x="50" y="520" class="subtitle">FOR OPLANA</text>
+    
+    <!-- High-impact graphic element -->
+    <!-- Large structural rectangle -->
+    <rect class="dark-block" x="50" y="600" width="700" height="450"/>
+    
+    <!-- Platform Points in the dark block -->
+    <text x="100" y="720" class="platform">PRAGMATIC</text>
+    <text x="100" y="770" class="platform">LEGISLATION.</text>
+    
+    <text x="100" y="860" class="platform">FAIR TAXATION.</text>
+    <text x="100" y="940" class="platform">ACCESSIBLE SERVICES.</text>
+    
+    <!-- Accent Red Square inside dark block -->
+    <rect class="red-block" x="630" y="930" width="60" height="60"/>
+    
+    <!-- Footer -->
+    <text x="50" y="1120" class="footer">NOT PAID BY YOU</text>
+    <rect class="dark-block" x="50" y="1150" width="700" height="5"/>
+</svg>

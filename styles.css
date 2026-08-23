@@ -136,20 +136,16 @@ h2 {
     font-weight: 400;
 }
 
-.poster-placeholder {
+.hero-poster {
     width: 100%;
-    max-width: 600px;
-    height: 800px;
-    background-color: #2A2A2A;
-    border: 2px dashed #555555;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 3rem;
-    color: #888888;
-    font-weight: 600;
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
+    max-width: 400px;
+    height: auto;
+    margin: 0 auto 2rem;
+    display: block;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+    border: 1px solid rgba(0,0,0,0.2);
+    position: relative;
+    z-index: 2;
 }
 
 .hero-sda-logo {
