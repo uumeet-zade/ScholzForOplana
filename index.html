@@ -3,109 +3,142 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Adam Scholz for Oplana | Social Democratic Alliance</title>
-    <meta name="description" content="Campaign website for Adam Scholz, Social Democratic Alliance candidate for the 2064 Constituency election in Oplana.">
+    <title>Adam Scholz for Oplana | Re-Election</title>
+    <meta name="description" content="Re-election campaign website for Adam Scholz, Social Democratic Alliance candidate for Oplana.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <nav class="navbar">
-        <div class="nav-content">
-            <img src="assets/SDAlogo.svg" alt="SDA Logo" class="nav-logo">
-            <ul class="nav-links">
-                <li><a href="#platform">The Platform</a></li>
-                <li><a href="#strategy">The Strategy</a></li>
-                <li><a href="#events">Recent Events</a></li>
-                <li>
-                    <select class="lang-select" aria-label="Select Language">
-                        <option value="alanian">Alanian</option>
-                        <option value="alcamerian">Alcamerian</option>
-                        <option value="gallic">Gallic</option>
-                    </select>
-                </li>
-            </ul>
+        <div class="nav-brand">
+            <img src="assets/SDAlogo-white.svg" alt="SDA Logo" class="nav-logo" onerror="this.src='assets/SDAlogo.svg'">
         </div>
+        <ul class="nav-links">
+            <li><a href="#about">Meet Adam</a></li>
+            <li><a href="#record">The Record</a></li>
+            <li><a href="#platform">The Future</a></li>
+            <li>
+                <select class="lang-select" aria-label="Select Language" onchange="location = this.value;">
+                    <option value="index.html" selected>Alanian</option>
+                    <option value="index-es.html">Alcamerian</option>
+                    <option value="index-fr.html">Gallic</option>
+                </select>
+            </li>
+        </ul>
     </nav>
 
-    <header class="hero section-animate">
-        <div class="hero-content">
-            <h1 class="hero-title">Adam Scholz for Oplana</h1>
-            <p class="hero-subtitle">Pragmatic Legislation. Fair Taxation. Accessible Services.</p>
-            <img src="assets/finalposter.png" alt="Adam Scholz Campaign Poster" class="hero-poster">
-            <img src="assets/SDAlogo-white.svg" alt="Social Democratic Alliance Logo" class="hero-sda-logo">
+    <header class="hero">
+        <img src="assets/scholz.jpeg" alt="Adam Scholz Background" class="hero-bg">
+        <div class="hero-overlay"></div>
+        <div class="hero-content fade-in-up">
+            <div class="hero-badge">2068 Re-Election Campaign</div>
+            <h1 class="hero-title">We Won.<br>Now We Build.</h1>
+            <p style="max-width: 600px; font-size: 1.5rem; opacity: 0.9;">
+                Oplana chose progress. Now, we secure the foundation. Adam Scholz is running for re-election to ensure our constituency becomes the benchmark for infrastructure, justice, and safety.
+            </p>
         </div>
     </header>
 
     <main>
-        <section id="strategy" class="strategy section-animate">
-            <div class="section-container">
-                <div class="strategy-text">
-                    <h2>The Strategy</h2>
-                    <p>
-                        Real change requires honesty about what power actually does. A single MP cannot rewrite the Treasury's ledger overnight. However, an MP can relentlessly bring the hardest issues to the floor of the House until government ministers are forced to answer for them in public.
+        <section id="about" class="section-container">
+            <div class="fade-in-up">
+                <h2>Meet Adam Scholz</h2>
+                <div class="about-content">
+                    <p style="font-size: 1.25rem;">
+                        First elected as Oplana's Member of Parliament in 2056, Adam Scholz has been a relentless advocate for our city through the 2060 and 2064 terms. Now, looking toward 2068, his commitment remains unshaken.
                     </p>
-                    <p>
-                        My promise to Oplana remains clear: I will put forward the legislation our constituency needs, argue for it transparently, and make sure you know exactly who stands in the way of progress. This is about pragmatic accountability.
+                    <p style="font-size: 1.25rem;">
+                        Serving as both the <strong>Shadow Minister of Justice</strong> and the <strong>Shadow Minister of Energy and National Resources</strong>, Adam has held the government accountable on both the rule of law and the sustainable future of our infrastructure. He understands the levers of power and how to pull them for Oplana.
                     </p>
-                </div>
-                <img src="assets/scholz.jpeg" alt="Adam Scholz at Press Conference" class="strategy-image">
-            </div>
-        </section>
-
-        <section id="platform" class="platform section-animate">
-            <div class="section-container">
-                <h2>Campaign Platform</h2>
-                
-                <div class="platform-grid">
-                    <article class="platform-card">
-                        <h3>Public Services and Fair Taxation</h3>
-                        <p>
-                            Our health system must serve every neighborhood efficiently. We are fighting for a national standard that mandates a dedicated GP-to-specialist referral desk in major constituency clinics like ours, with guaranteed, ring-fenced funding from the health ministry.
-                        </p>
-                        <p>
-                            Additionally, fair taxation must be more than a slogan. We are actively pressing the Treasury to reform the property levy bracket to ensure commercial landholdings pay their fair share, and we stand firmly behind budgets that increase taxes on extreme wealth and luxury goods.
-                        </p>
-                    </article>
-
-                    <article class="platform-card">
-                        <h3>Affordable Housing Policy</h3>
-                        <p>
-                            Housing policy must reflect local realities. We are pushing for a national rent cap framework that ties allowable rent increases directly to Oplana's median income, rather than an inflated capital-city average.
-                        </p>
-                        <p>
-                            To ensure this policy translates into actual homes for residents, we have drafted a vacancy disincentive clause. This will heavily tax residential units kept deliberately empty, guaranteeing that our housing supply remains active and available for those who need it.
-                        </p>
-                    </article>
                 </div>
             </div>
         </section>
 
-        <section id="events" class="events section-animate">
-            <div class="section-container">
-                <h2>Recent Events</h2>
-                <div class="events-list">
-                    <a href="event-public-services.html" class="event-item">
-                        <h3>Campaign Launch: Public Services and Fair Taxation</h3>
-                        <p class="event-location">Atrium of the Oplana Constituency Office</p>
-                        <p>Standing in the Oplana Constituency Office atrium, Adam Scholz officially launched his re-election bid by presenting a clear, historical timeline of SDA legislative efforts since 2056. The event centered on immediate, actionable steps to secure healthcare funding and bring balance to the national property tax brackets.</p>
-                    </a>
-                    <a href="event-affordable-housing.html" class="event-item">
-                        <h3>Policy Launch: Affordable Housing</h3>
-                        <p class="event-location">Corrin Row</p>
-                        <p>Addressing residents directly on Corrin Row, Adam detailed the newly drafted rent cap framework and vacancy disincentive clause. He highlighted how direct correspondence from Oplana renters shaped the legislation and spent significant time answering direct, hard-hitting questions from the community.</p>
-                    </a>
+        <section id="record" class="section-container">
+            <div class="fade-in-up">
+                <h2>The Record</h2>
+                <div class="record-grid">
+                    <div class="record-item">
+                        <span class="record-badge">2056-2068</span>
+                        <h3>Consistent Leadership</h3>
+                        <p>Over a decade of unbroken service to the residents of Oplana, prioritizing transparency over politics.</p>
+                    </div>
+                    <div class="record-item">
+                        <span class="record-badge">Justice</span>
+                        <h3>Rule of Law</h3>
+                        <p>Fiercely defending civil liberties and demanding fair taxation across all brackets as Shadow Minister of Justice.</p>
+                    </div>
+                    <div class="record-item">
+                        <span class="record-badge">Energy</span>
+                        <h3>Sustainable Power</h3>
+                        <p>Championing the modernization of our grid and environmental protections as Shadow Minister of Energy.</p>
+                    </div>
                 </div>
             </div>
+        </section>
+
+        <section id="platform" class="section-container">
+            <div class="fade-in-up">
+                <h2>The Future</h2>
+            </div>
+            
+            <div class="platform-grid">
+                <article class="platform-card fade-in-up">
+                    <h3>Infrastructure & Education</h3>
+                    <p>
+                        A capital city cannot function on outdated networks. We are fighting for an aggressive modernization bill that targets our transit corridors and digital grids. Furthermore, our schools must be sanctuaries of innovation.
+                    </p>
+                </article>
+
+                <article class="platform-card fade-in-up">
+                    <h3>Social Justice & Support</h3>
+                    <p>
+                        Progress means nobody is left behind. We are pushing for an expansion of the social safety net, targeting poverty at its root. This includes expanded mental health services and rigorous protections for marginalized residents.
+                    </p>
+                </article>
+
+                <article class="platform-card fade-in-up">
+                    <h3>Security & Safety</h3>
+                    <p>
+                        True security is born from strong communities, not just enforcement. We are advocating for community-led safety programs, better lighting in public spaces, and resources allocated toward neighborhood intervention.
+                    </p>
+                </article>
+            </div>
+        </section>
+
+        <section id="endorsements" class="section-container">
+            <div class="fade-in-up">
+                <h2>Community Voices</h2>
+                <div class="endorsement-card">
+                    <blockquote>"Adam doesn't just talk. He drafts the legislation, forces the vote, and makes the government answer to Oplana."</blockquote>
+                    <cite>- Oplana Workers Union</cite>
+                </div>
+            </div>
+        </section>
+
+        <section id="voter-info" class="section-container">
+            <div class="fade-in-up voter-box">
+                <h2>Voter Information: 2068 Election</h2>
+                <div class="voter-details">
+                    <p><strong>Election Day:</strong> December 5th, 2068</p>
+                    <p><strong>Polling Locations:</strong> All major Oplana district community centers and the Central Library.</p>
+                    <p>Make your voice heard. Ensure your registration is up to date.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta-section fade-in-up">
+            <h2>Join the Movement</h2>
+            <p>We built this together. Let's finish the job.</p>
+            <a href="#" class="cta-button">Volunteer Now</a>
         </section>
     </main>
 
-    <footer class="footer">
-        <div class="footer-content">
-            <img src="assets/SDAsmall.svg" alt="SDA Small Logo" class="footer-logo">
-            <p>&copy; 2064 Adam Scholz for Oplana. Authorized by the Social Democratic Alliance.</p>
-        </div>
+    <footer>
+        <img src="assets/SDAsmall.svg" alt="SDA Small Logo" class="footer-logo">
+        <p>&copy; 2068 Adam Scholz for Oplana. Authorized by the Social Democratic Alliance.</p>
     </footer>
 
     <script src="script.js"></script>
